@@ -12,7 +12,8 @@ function FrontPage() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          Check out my Github
+          Check out my Github   <i className='fab fa-github '/>
+          
         </Button>
         <Button
           className='btns'
@@ -20,7 +21,7 @@ function FrontPage() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          Check out my Youtube <i className='far fa-play-circle' />
+          Check out my Youtube <i className='fab fa-youtube' />
         </Button>
       </div>
     </div>
