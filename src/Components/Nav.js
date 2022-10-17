@@ -6,7 +6,7 @@ import'./Nav.css';
 
 function Nav() {
   const[click, setClick] = useState(false);
-  const[button,setButton] = useState(true);
+  const[Button,setButton] = useState(true);
   const handleClick = () => setClick(!click);
   const closeMobileMenue = () => setClick(false);
 
@@ -23,7 +23,7 @@ window.addEventListener('resize',showButton);
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className="navbar-logo" onClick={closeMobileMenue}>
+          <Link to='' className="navbar-logo" onClick={closeMobileMenue}>
             Chris Boudreau
           </Link>  
           <div className='menu-icon' onClick={handleClick}>
@@ -31,7 +31,7 @@ window.addEventListener('resize',showButton);
           </div>
           <ul className= {click ? 'nav-menu active': 'nav-menu'}>
               <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobileMenue}>
+                <Link to='' className='nav-links' onClick={closeMobileMenue}>
                     Home
                 </Link>
               </li>

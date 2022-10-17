@@ -11,10 +11,10 @@ function FrontPage() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          onClick={console.log('hey')}
         >
-          Check out my Github   <i className='fab fa-github '/>
-          
-        </Button>
+          Check out my Github   <i className='fab fa-github '/>     
+        </Button>    
         <Button
           className='btns'
           buttonStyle='btn--primary'
@@ -23,6 +23,7 @@ function FrontPage() {
         >
           Check out my Youtube <i className='fab fa-youtube' />
         </Button>
+    
       </div>
     </div>
   );
