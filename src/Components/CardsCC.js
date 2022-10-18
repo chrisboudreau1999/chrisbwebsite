@@ -33,12 +33,6 @@ function CardsCC() {
               label='Livestream Casting'
 
             />
-            <CardItem
-              
-              text='test'
-              label='placeholder'
-
-            />
           </ul>
         </div>
       </div>
