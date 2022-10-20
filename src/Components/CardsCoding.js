@@ -35,4 +35,4 @@ function CardsCoding() {
   );
 }
 
-export default CardsCC;
+export default CardsCoding;
