@@ -18,10 +18,8 @@ function CardsCoding() {
               src='BillyBluenose.jpg'
               text='Billy Bluenose'
               label='Atlantic Gamejam 2022 2nd place'
-
             />
           </ul>
-
           <ul className='cards__items'>
           <CardItem
               src='BoatleRoyale.png'
@@ -33,7 +31,6 @@ function CardsCoding() {
               text='BoneBot'
               label='Java Discord API'
             />
-
           </ul>
         </div>
       </div>
