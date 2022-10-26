@@ -15,15 +15,21 @@ function CardsCoding() {
               label='React Frontend and Backend'
             />
             <CardItem
-              src=''
+              src='BillyBluenose.jpg'
               text='Billy Bluenose'
               label='Atlantic Gamejam 2022 2nd place'
 
             />
           </ul>
+
           <ul className='cards__items'>
+          <CardItem
+              src='BoatleRoyale.png'
+              text='Boatle Royale'
+              label='Unity game group project'
+            />
             <CardItem
-              src=''
+              src='BoneBot.png'
               text='BoneBot'
               label='Java Discord API'
             />
