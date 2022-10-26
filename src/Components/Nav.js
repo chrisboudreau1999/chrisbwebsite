@@ -30,11 +30,6 @@ window.addEventListener('resize',showButton);
           </div>
           <ul className= {click ? 'nav-menu active': 'nav-menu'}>
               <li className='nav-item'>
-                <Link to='' className='nav-links' onClick={closeMobileMenue}>
-                    Home
-                </Link>
-              </li>
-              <li className='nav-item'>
                 <Link to='Photography' className='nav-links' onClick={closeMobileMenue}>
                     Photography
                 </Link>
