@@ -5,7 +5,7 @@ import'./Nav.css';
 
 function Nav() {
   const[click, setClick] = useState(false);
-  const[Button,setButton] = useState(true);
+  const[setButton] = useState(true);
   const handleClick = () => setClick(!click);
   const closeMobileMenue = () => setClick(false);
 
@@ -29,11 +29,6 @@ window.addEventListener('resize',showButton);
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className= {click ? 'nav-menu active': 'nav-menu'}>
-              <li className='nav-item'>
-                <Link to='Photography' className='nav-links' onClick={closeMobileMenue}>
-                    Photography
-                </Link>
-              </li>
               <li className='nav-item'>
                 <Link to='ContenCreation' className='nav-links' onClick={closeMobileMenue}>
                     Content Creation
