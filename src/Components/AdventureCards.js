@@ -5,32 +5,43 @@ import CardItem from './CardItem.js';
 function AdventureCards() {
   return (
     <div className='cards'>
-      <h1>Some Coding Projects i've been a part of</h1>
+      <h1>Adventure's I've been on</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src=''
-              text='Website prototype'
-              label='React Frontend and Backend'
+              src='Kenomee.png'
+              lebel='Backpacking'
+              text='Kenomee Canyon'
+
             />
             <CardItem
-              src='BillyBluenose.jpg'
-              text='Billy Bluenose'
-              label='Atlantic Gamejam 2022 2nd place'
+              src='Split.jpg'
+              text='Cape Split Sunset'
+              label='Sunset Hike'
+
             />
+
           </ul>
           <ul className='cards__items'>
           <CardItem
-              src='BoatleRoyale.png'
-              text='Boatle Royale'
-              label='Unity game group project'
+              src='Peggy.jpg'
+              text='Peggys Cove Sunrise'
+              label='Biking'
+
             />
             <CardItem
-              src='BoneBot.png'
-              text='BoneBot'
-              label='Java Discord API'
-            />
+              src='Duncan.jpg'
+              text='Duncans Cove Sunrise'
+              label='Sunrise Hike' 
+
+            />            
+            < CardItem
+              src='Chignecto.jpg'
+              text='Cape Chignecto'
+             label='Backpacking' 
+
+          />
           </ul>
         </div>
       </div>

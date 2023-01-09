@@ -5,15 +5,10 @@ import CardItem from './CardItem.js';
 function CardsCoding() {
   return (
     <div className='cards'>
-      <h1>Some Coding Projects i've been a part of</h1>
+      <h1>Coding Projects</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            <CardItem
-              src=''
-              text='Website prototype'
-              label='React Frontend and Backend'
-            />
             <CardItem
               src='BillyBluenose.jpg'
               text='Billy Bluenose'

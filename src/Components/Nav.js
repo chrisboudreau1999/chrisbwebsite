@@ -5,7 +5,7 @@ import'./Nav.css';
 
 function Nav() {
   const[click, setClick] = useState(false);
-  const[setButton] = useState(true);
+  const[Button,setButton] = useState(true);
   const handleClick = () => setClick(!click);
   const closeMobileMenue = () => setClick(false);
 

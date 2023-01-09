@@ -7,7 +7,6 @@ import Home from './Components/pages/Home'
 import ContentCreation from './Components/pages/ContentCreation'
 import Coding from './Components/pages/Coding'
 import Adventure from './Components/pages/Adventure'
-import Photography from './Components/pages/Photography'
 import AboutMe from './Components/pages/AboutMe'
 
 function App() {
@@ -25,9 +24,6 @@ function App() {
       </Routes>
       <Routes>
         <Route exact path="/Adventures" element={<Adventure/>}/> 
-      </Routes>
-      <Routes>
-        <Route exact path="/Photography" element={<Photography/>}/> 
       </Routes>
       <Routes>
         <Route exact path="/AboutMe" element={<AboutMe/>}/> 
