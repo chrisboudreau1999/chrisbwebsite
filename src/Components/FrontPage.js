@@ -7,22 +7,18 @@ function FrontPage() {
     <div className='hero-container'>   
       <h1>Welcome!</h1>
       <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
+        <button
+
+          onClick={() => { console.log("test") }}>
+
           Check out my Github   <i className='fab fa-github '/>     
-        </Button>    
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
+        </button>    
+        <button
+        onClick={() => { console.log("test2") }}>
           Check out my Youtube <i className='fab fa-youtube' />
-        </Button>
+        </button>
+          
+        
     
       </div>
     </div>

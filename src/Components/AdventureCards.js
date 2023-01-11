@@ -11,9 +11,8 @@ function AdventureCards() {
           <ul className='cards__items'>
             <CardItem
               src='Kenomee.png'
-              lebel='Backpacking'
               text='Kenomee Canyon'
-
+              label='Backpacking'
             />
             <CardItem
               src='Split.jpg'
