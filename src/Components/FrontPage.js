@@ -1,24 +1,31 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import Button from 'react-bootstrap/Button';
 import './FrontPage.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function FrontPage() {
+  
   return (
+    
     <div className='hero-container'>   
       <h1>Welcome!</h1>
       <div className='hero-btns'>
-        <button
-
-          onClick={() => { console.log("test") }}>
-
+        <Button
+            type="button"
+            variant="primary"
+            onClick={() => {  window.location.href="https://github.com/chrisboudreau1999"; }}
+        >
           Check out my Github   <i className='fab fa-github '/>     
-        </button>    
-        <button
-        onClick={() => { console.log("test2") }}>
+        </Button>    
+        <Button
+          type="button"
+          variant="primary"
+          onClick={() => {  window.location.href="https://www.youtube.com/channel/UCQRuPtG4-PWrCZ9QKTk0qPw"; }}
+        >
           Check out my Youtube <i className='fab fa-youtube' />
-        </button>
-          
-        
+        </Button>
+
     
       </div>
     </div>
