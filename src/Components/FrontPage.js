@@ -8,12 +8,13 @@ function FrontPage() {
   
   return (
     
-    <div className='hero-container'>   
+    <div className='main-container'>   
       <h1>Welcome!</h1>
-      <div className='hero-btns'>
+      <div className='main-btns'>
         <Button
             type="button"
             variant="primary"
+           
             onClick={() => {  window.location.href="https://github.com/chrisboudreau1999"; }}
         >
           Check out my Github   <i className='fab fa-github '/>     
