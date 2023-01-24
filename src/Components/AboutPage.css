@@ -14,6 +14,12 @@
       padding-left: 0%;
     
   }
+  .left{
+    padding-top: 1%;
+  }
+  .Button{
+    padding: 2%;
+  }
 
 
   @media only screen and (min-width: 960px) {
