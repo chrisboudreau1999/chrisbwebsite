@@ -4,7 +4,7 @@
     width: 90%;
     margin: 0 auto;
     height: 120vh;
-    justify-content: center;
+    
     flex-direction: column;
   }
 
@@ -21,7 +21,10 @@
     padding: 2%;
   }
 
-
+  .main-btns .btn {
+    margin: 6px;
+  }
+  
   @media only screen and (min-width: 960px) {
     .about-page {
       flex-direction: row;
@@ -34,6 +37,6 @@
     .right{
       padding-left: 5%;
       
-      padding-top: 20%;
+      padding-top: 15%;
     }
   }
