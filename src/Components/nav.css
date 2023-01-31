@@ -28,6 +28,7 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+    width: 30vh;
   }
   
   .fa-typo3 {
@@ -42,7 +43,7 @@
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 60vw;
+    width: 80vw;
     justify-content: right;
     margin-right: 2rem;
   }
