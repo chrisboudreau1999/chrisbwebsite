@@ -6,10 +6,10 @@ function AboutAdventure(props) {
     <>
           <div className='about-page'>
             <div className='left'>
-              <img src='ChirsAdventuretest.jpg' alt='aboutChris'/>
+              <img height={500} src='ChirsAdventuretest.jpg' alt='aboutChris'/>
             </div>
             <div className='right'>
-               <h3> I am obssessed with extreme adventure! pushing myself to my limits is something I chase all the time. mainly biking and backpacking around nova scotia I have seen the beauties of the province and try to capure what there is in store. </h3>
+               <h3> I am obssessed with extreme adventure! pushing myself to my limits is where you can find me on my free time. mainly biking and backpacking around nova scotia i am normally going places not many others attempt! </h3>
                 <Button
                   type="button"
                   variant="primary"

@@ -6,7 +6,7 @@ function AboutPage(props) {
     <>
           <div className='about-page'>
             <div className='left'>
-              <img src='chris2test.jpg' alt='aboutChris'/>
+              <img src='chris2.jpg' alt='aboutChris'/>
             </div>
             <div className='right'>
               <h1> Chris Boudreau</h1>
