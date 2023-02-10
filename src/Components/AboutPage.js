@@ -10,7 +10,7 @@ function AboutPage(props) {
             </div>
             <div className='right'>
               <h1> Chris Boudreau</h1>
-              <h3> Hi I am a 23 year old dal graduate from the Applied Computer Science program! I created thiw webiste so show off all my programming includinng things like Chess, Biking, Photography, and especially Coding! I am very passionate about Web Development and coding in general, check out my coding experiance with these links! </h3>
+              <h3> Hi I am a 23 year old dal graduate from the Applied Computer Science program! I created this webiste so show off all my passions includinng things like Chess, Biking, Photography, and especially Coding! I am very passionate about Web Development and coding in general, check out my coding experiance with these links! </h3>
               <div className='.btn'>
               <Button
                 type="button"
