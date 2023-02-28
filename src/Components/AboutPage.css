@@ -3,8 +3,7 @@
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
-    height: 120vh;
-    
+    height: 80vh;
     flex-direction: column;
   }
 
@@ -25,11 +24,17 @@
   .main-btns .btn {
     margin: 6px;
   }
-  
+  .scroll-button {
+    float: right;
+    margin: 30px;
+  }
+  .bottom{
+    height: 30vh;
+  }
   @media only screen and (min-width: 960px) {
     .about-page {
       flex-direction: row;
-      height: 100vh;
+      height: 65vh;
     }
     .left{
       justify-items: center;
@@ -39,5 +44,12 @@
       padding-left: 5%;
       
       padding-top: 15%;
+    }
+    .scroll-button {
+      float: right;
+      margin: 50px;
+    }
+    .bottom{
+      height: 30vh;
     }
   }

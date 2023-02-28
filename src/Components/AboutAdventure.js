@@ -1,14 +1,9 @@
 import React from 'react';
 import './AboutPage.css';
 import Button from 'react-bootstrap/Button';
-import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 
 function AboutAdventure(props) {
   return (
-   
-      <ScrollContainer>
-        <ScrollPage >
-          <Animator animation={StickyIn}>
             <div className='about-page'>
               <div className='left'>
                 <img height={500} src='ChrisAdventure.jpg' alt='aboutChris'/>
@@ -31,10 +26,6 @@ function AboutAdventure(props) {
                 </Button> 
                 </div>
               </div>
-          </Animator>
-       </ScrollPage>
-    </ScrollContainer>
-
   );
 }
 

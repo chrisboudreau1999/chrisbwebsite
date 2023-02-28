@@ -1,7 +1,6 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem.js';
-import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 
 function AdventureCards() {
   return (
