@@ -29,7 +29,7 @@ function AboutPage(props) {
                </div>
             </div>
           </div>
-
+          <div  className="bottom"></div>
     </>
   );
 }
