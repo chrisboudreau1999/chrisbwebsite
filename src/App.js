@@ -2,6 +2,7 @@
 import './App.css';
 import React from 'react';
 import Navbar from "./Components/Nav";
+import Footer from './Components/Footer';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './Components/pages/Home'
 import ContentCreation from './Components/pages/ContentCreation'

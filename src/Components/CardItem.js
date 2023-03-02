@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 function CardItem(props) {
   const [showPopup, setShowPopup] = useState(false);
+  const popupRef = useRef(null);
 
   const handleClick = () => {
     setShowPopup(true);
@@ -11,6 +12,24 @@ function CardItem(props) {
   const handleClose = () => {
     setShowPopup(false);
   }
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (popupRef.current && !popupRef.current.contains(event.target)) {
+        setShowPopup(false);
+      }
+    }
+
+    if (showPopup) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [showPopup]);
 
   return (
     <>
@@ -30,7 +49,7 @@ function CardItem(props) {
       </li>
       {showPopup &&
         <div className="popup">
-          <div className="popup-content">
+          <div className="popup-content" ref={popupRef}>
             <img
               className='popup__img'
               alt='popup image'

@@ -18,7 +18,7 @@ function CardsCC() {
               src='ChessBrah.jpg'
               text='Chessbruh plays me and puts me on his youtube channel'
               label='Feature'
-
+              popupImage='ChessBrah.jpg'
             />
             
           </ul>
