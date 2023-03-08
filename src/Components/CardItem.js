@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-
+import Button from 'react-bootstrap/Button';
 function CardItem(props) {
   const [showPopup, setShowPopup] = useState(false);
   const popupRef = useRef(null);
@@ -49,18 +49,19 @@ function CardItem(props) {
       </li>
       {showPopup &&
         <div className="popup">
-          <div className="popup-content" ref={popupRef}>
-            <img
-              className='popup__img'
-              alt='popup image'
-              src={props.popupImage} 
-            />
-            <h2>{props.popupTitle}</h2>
-            <p>{props.popupText}</p>
-            <a href={props.popupLink} target="_blank" rel="noopener noreferrer">Go to website</a>
-            <button onClick={handleClose}>Close</button>
+          <div className="popup-content" ref={popupRef}> 
+            <div className='leftpop'>         
+              <img className='popup__img' alt='popup image' src={props.src} />
+            </div>   
+            <div className='rightpop'>
+              <h2 className="popup__title">{props.popupTitle}</h2>
+              <p className="popup__text">{props.popupText}</p>
+              <Button href={props.popupLink} target="_blank" rel="noopener noreferrer">
+              {props.popupButton + " "} <i className={props.popupFA} />
+            </Button>
+            </div> 
           </div>
-        </div>
+      </div>
       }
     </>
   );

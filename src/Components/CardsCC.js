@@ -18,7 +18,10 @@ function CardsCC() {
               src='ChessBrah.jpg'
               text='Chessbruh plays me and puts me on his youtube channel'
               label='Feature'
-              popupImage='ChessBrah.jpg'
+              popupText='I had the pleasure of playing a casual game of chess with Grand Master Aman Hambleton and he decided to feature that game on his youtube channel ChessBruh'
+              popupLink="https://www.youtube.com/watch?v=wsC6RrjAQus"
+              popupButton="watch the video here!"
+              popupFA="fab fa-youtube"
             />
             
           </ul>
