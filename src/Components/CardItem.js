@@ -52,8 +52,7 @@ function CardItem(props) {
           <div className="popup-content" ref={popupRef}> 
             <div className='leftpop'>         
               <img className='popup__img' alt='popup image' src={props.src} />
-            </div>   
-            <div className='rightpop'>
+    
               <h2 className="popup__title">{props.popupTitle}</h2>
               <p className="popup__text">{props.popupText}</p>
               <Button href={props.popupLink} target="_blank" rel="noopener noreferrer">
