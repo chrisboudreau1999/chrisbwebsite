@@ -18,16 +18,7 @@ function CardsCC() {
               popupButton='Checkout the Kings of Hali 5 stream'
               popupFA='fab fa-twitch'
             />
-            <CardItem
-              src='ChessBrah.jpg'
-              text='Chessbruh plays me and puts me on his youtube channel'
-              label='Feature'
-              popupText='I had the pleasure of playing a casual game of chess with Grandmaster Aman Hambleton and he decided to feature that game on his youtube channel ChessBruh'
-              popupLink='https://www.youtube.com/watch?v=wsC6RrjAQus'
-              popupButton="watch the video here"
-              popupFA="fab fa-youtube"
-            />
-            
+
           </ul>
           <ul className='cards__items'>
             <CardItem
