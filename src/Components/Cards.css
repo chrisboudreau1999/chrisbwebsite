@@ -143,14 +143,15 @@
   }
   
   .popup__img {
-    max-width: 52%;
+    max-width: 610px;
+    max-height: 457px;
     height: auto;
     margin-bottom: 0px;
   }
   .popup__text{
-     max-width: 60%;
+     max-width: 610px;
     height: auto;
-    margin-left: 20%;
+    
   }
   .leftpop{
     

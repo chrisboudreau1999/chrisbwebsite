@@ -18,8 +18,9 @@ function AboutAdventure(props) {
                 <img height={500} src='ChrisAdventure.jpg' alt='aboutChris'/>
               </div>
               <div className='right'>
-                <h3> I am obssessed with extreme adventure! pushing myself to my limits is where you can find me on my free time. mainly biking and backpacking around nova scotia i am normally going places not many others attempt! </h3>
-                  <Button
+                <h3> Whether I'm biking in the middle of the night or traversing through dense forests, I'm constantly pushing myself to new heights and discovering what I'm truly capable of. I always love capturing the most magical moments of my life and taking photos of this beautiful province </h3>
+                
+                <Button
                     type="button"
                     variant="primary"
                     onClick={() => {  window.location.href="https://www.strava.com/athletes/60461458"; }}
