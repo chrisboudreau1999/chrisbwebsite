@@ -20,7 +20,7 @@ function AboutCC(props) {
           <img height={500} src='ChrisCamera.jpg' alt='aboutChris'/>
         </div>
         <div className='right'>
-          <h3> I love to entertain, Behind or in front of the camera I am great at producing videos in any way I can help! If there is a camera involved I will always be ready to do or say something entertaining! check out all the projects I've created or helped produce down below! </h3>
+          <h3> I love entertaining people and making videos. Whether I'm in front of or behind the camera, I'm great at producing videos and always ready to do something entertaining. I'm really good at making videos that people like to watch and that show off my own unique style. I enjoy working with others and using my skills to help bring their ideas to life. Making videos is something I'm really passionate about and I put a lot of energy and enthusiasm into it. </h3>
           <Button href={"https://www.youtube.com/channel/UCQRuPtG4-PWrCZ9QKTk0qPw"} target="_blank" rel="noopener noreferrer">
             Check out my Youtube <i className='fab fa-youtube' />
           </Button>
