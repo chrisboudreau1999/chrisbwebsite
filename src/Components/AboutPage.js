@@ -12,10 +12,7 @@ function AboutPage(props) {
               <h1> Chris Boudreau</h1>
               <h3> Hi I am a 23 year old dal graduate from the Applied Computer Science program! this webiste is to so show off all my passions including things like Chess, Biking, Photography, and especially Coding! I am very passionate about Web Development and coding in general, check out my coding experiance with these links! </h3>
               <div className='.btn'>
-              <Button
-                type="button"
-                variant="primary"
-                onClick={() => {  window.location.href="https://github.com/chrisboudreau1999"; }}
+              <Button href={"https://github.com/chrisboudreau1999"} target="_blank" rel="noopener noreferrer"
              >
                Check out my Github   <i className='fab fa-github '/>     
              </Button>    {'  '}           

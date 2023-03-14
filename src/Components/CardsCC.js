@@ -18,7 +18,16 @@ function CardsCC() {
               popupButton='Checkout the Kings of Hali 5 stream'
               popupFA='fab fa-twitch'
             />
-
+            <CardItem
+              src='ChessBrah.jpg'
+              text='Chessbruh plays me and puts me on his youtube channel'
+              label='Feature'
+              popupText='I had the pleasure of playing a casual game of chess with Grandmaster Aman Hambleton and he decided to feature that game on his youtube channel ChessBruh'
+              popupLink='https://www.youtube.com/watch?v=wsC6RrjAQus'
+              popupButton="watch the video here"
+              popupFA="fab fa-youtube"
+            />
+            
           </ul>
           <ul className='cards__items'>
             <CardItem
@@ -36,7 +45,7 @@ function CardsCC() {
               label='Livestream Casting'
               popupText='Casting is very important for tourniments of all varities and commentary is a very hard task. throughout the years got to cast multiple super smash brothers melee tourniments gainning skills in beingn entertainning and knowledgeble for viewers to enjoy live streams'
               popupLink='https://www.twitch.tv/videos/1756713172?t=02h42m37s'
-              popupButton="Check out my latest casting"
+              popupButton="Check out my latest casting!"
               popupFA='fab fa-twitch'
             />
           </ul>

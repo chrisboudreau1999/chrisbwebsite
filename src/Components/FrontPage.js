@@ -1,8 +1,9 @@
 import React from 'react';
 import '../App.css';
 import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './FrontPage.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function FrontPage() {
   
   return (
@@ -10,18 +11,11 @@ function FrontPage() {
     <div className='main-container'>   
       <h1>Welcome!</h1>
       <div className='main-btns'>
-        <Button
-            type="button"
-            variant="primary"
-           
-            onClick={() => {  window.location.href="https://github.com/chrisboudreau1999"; }}
+        <Button href={"https://github.com/chrisboudreau1999"} target="_blank" rel="noopener noreferrer"
         >
           Check out my Github   <i className='fab fa-github '/>     
         </Button>    
-        <Button
-          type="button"
-          variant="primary"
-          onClick={() => {  window.location.href="https://www.youtube.com/channel/UCQRuPtG4-PWrCZ9QKTk0qPw"; }}
+        <Button href={"https://www.youtube.com/channel/UCQRuPtG4-PWrCZ9QKTk0qPw"} target="_blank" rel="noopener noreferrer"
         >
           Check out my Youtube <i className='fab fa-youtube' />
         </Button>

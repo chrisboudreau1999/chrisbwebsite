@@ -1,50 +1,43 @@
-.about-page{
-    display: flex; 
-    max-width: 1120px;
-    width: 90%;
-    margin: 0 auto;
-    height: 80vh;
-    flex-direction: column;
-  }
+.about-page {
+  display: flex;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+  height: 80vh;
+  flex-direction: column;
+}
 
-  .right{
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  padding: 1%;
+}
 
-      padding-top: 5%;
-      padding-left: 0%;
-    
-  }
-  .left{
-    padding-top: 1%;
-    
-  }
-  .Button{
-    padding: 2%;
-  }
+.right {
+  padding-top: 5%;
+  padding-left: 0%;
+  width: 50%;
+}
 
-  .main-btns .btn {
-    margin: 6px;
+@media only screen and (min-width: 960px) {
+  .about-page {
+    flex-direction: row;
+    height: 65vh;
   }
-  .scroll-button {
-    float: right;
-    margin: 30px;
+  .left {
+    width: 40%;
+    padding-top: 10%;
   }
-  .bottom{
-    height: 30vh;
+  .right {
+    padding-left: 5%;
+    padding-top: 15%;
+    width: 60%;
   }
-  @media only screen and (min-width: 960px) {
-    .about-page {
-      flex-direction: row;
-      height: 65vh;
-    }
-    .left{
-      justify-items: center;
-      padding-top: 10%;
-    }
-    .right{
-      padding-left: 5%;
-      
-      padding-top: 15%;
-    }
+}
     .scroll-button {
       float: right;
       margin: 50px;
@@ -52,4 +45,4 @@
     .bottom{
       height: 30vh;
     }
-  }
+  

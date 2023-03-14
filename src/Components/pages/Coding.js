@@ -1,11 +1,11 @@
 import React from 'react'
 import '../../App.css'
-import Cards from '../CardsCoding.js';
+import AboutCoding from '../AboutCoding';
 import Footer from '../Footer';
 function Coding(){
     return(
         <>
-        <Cards/>
+        <AboutCoding/>
         <Footer />
         </>
     )

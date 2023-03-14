@@ -20,18 +20,10 @@ function AboutAdventure(props) {
               <div className='right'>
                 <h3> Whether I'm biking in the middle of the night or traversing through dense forests, I'm constantly pushing myself to new heights and discovering what I'm truly capable of. I always love capturing the most magical moments of my life and taking photos of this beautiful province </h3>
                 
-                <Button
-                    type="button"
-                    variant="primary"
-                    onClick={() => {  window.location.href="https://www.strava.com/athletes/60461458"; }}
-                >
+                <Button  href={"https://www.strava.com/athletes/60461458"} target="_blank" rel="noopener noreferrer">
                   Check out my Strava  <i className='fab fa-strava '/>     
                 </Button>    {'  '}           
-                <Button
-                    type="button"
-                    variant="primary"
-                    onClick={() => {  window.location.href="https://www.alltrails.com/members/mrpantz300?ref=header"; }}
-                >
+                <Button  href={"https://www.alltrails.com/members/mrpantz300?ref=header"} target="_blank" rel="noopener noreferrer">               
                   Check out my Alltrails <i class="fas fa-hiking"/>    
                 </Button> 
                 </div>

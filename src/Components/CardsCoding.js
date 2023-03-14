@@ -21,6 +21,15 @@ function CardsCoding() {
         </ul>
         <ul className='cards__items'>
           <CardItem
+            src='website.jpg'
+            text='My Personal Website'
+            label='this website'
+            popupText='I created this website myself with React to show off my webdevopment skills and passions'
+            popupLink="https://github.com/chrisboudreau1999/chrisbwebsite"
+            popupButton="Check out the Source Code"
+            popupFA="fab fa-github"
+         />
+           <CardItem
             src='BoneBot.png'
             text='Discord Bot with JDA'
             label='Discord Bot'
@@ -29,7 +38,6 @@ function CardsCoding() {
             popupButton="Check out the Source Code"
             popupFA="fab fa-github"
          />
- 
         </ul>
       </div>
     </div>
