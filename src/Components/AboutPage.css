@@ -3,7 +3,7 @@
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
-  height: 80vh;
+  height: 100vh;
   flex-direction: column;
 }
 
@@ -15,12 +15,14 @@
   width: 50%;
   height: 100%;
   padding: 1%;
+  
 }
 
 .right {
   padding-top: 5%;
   padding-left: 0%;
   width: 50%;
+  
 }
 
 @media only screen and (min-width: 960px) {
@@ -41,6 +43,7 @@
     .scroll-button {
       float: right;
       margin: 50px;
+      margin-top: 150px;
     }
     .bottom{
       height: 30vh;
