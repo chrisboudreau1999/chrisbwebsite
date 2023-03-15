@@ -20,6 +20,8 @@ const showButton=() => {
 window.addEventListener('resize',showButton);
   return (
     <>
+   
+
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='' className="navbar-logo" onClick={closeMobileMenue}>
@@ -30,7 +32,7 @@ window.addEventListener('resize',showButton);
           </div>
           <ul className= {click ? 'nav-menu active': 'nav-menu'}>
               <li className='nav-item'>
-                <Link to='ContenCreation' className='nav-links' onClick={closeMobileMenue}>
+                <Link to='ContentCreation' className='nav-links' onClick={closeMobileMenue}>
                     Content Creation
                 </Link>
               </li>
