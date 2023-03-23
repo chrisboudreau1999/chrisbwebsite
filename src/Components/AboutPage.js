@@ -19,7 +19,7 @@ function AboutPage(props) {
               <Button
                 type="button"
                 variant="primary"
-                href="/coding" 
+                href="/Coding" 
              >
                Check out my Coding Experiance  <i className='fa fa-code '/>     
              </Button> 
