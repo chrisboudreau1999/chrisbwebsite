@@ -27,12 +27,14 @@
   width: 50%;
   
 }
-@media only screen and (max-width: 1385px) {
+@media only screen and (max-width:650px) {
 
     .left{
-       margin-top: 50%;
+       margin-top: 60%;
     }
-
+    .right{
+      width: 100%;
+    }
 
 }
 
