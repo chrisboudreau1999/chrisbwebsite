@@ -5,6 +5,8 @@
   margin: 0 auto;
   height: 100vh;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .left {
@@ -15,6 +17,7 @@
   width: 50%;
   height: 100%;
   padding: 1%;
+ 
   
 }
 
@@ -24,15 +27,26 @@
   width: 50%;
   
 }
+@media only screen and (max-width: 1385px) {
 
-@media only screen and (min-width: 960px) {
+    .left{
+       margin-top: 50%;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1385px) {
   .about-page {
     flex-direction: row;
     height: 65vh;
+    justify-content: center;
   }
   .left {
     width: 40%;
     padding-top: 10%;
+    justify-content: center;
   }
   .right {
     padding-left: 5%;
