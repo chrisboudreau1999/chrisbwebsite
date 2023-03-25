@@ -37,7 +37,9 @@
     .right{
       width: 100%;
     }
-    
+    .codingimg img {
+    width: 50% !important;
+  }
  
 
 }

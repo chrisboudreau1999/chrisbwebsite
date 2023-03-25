@@ -17,6 +17,7 @@ function AboutCoding(props) {
     <>
       <div className='about-page'>
         <div className='left'>
+          <div className='codingimg'>
             <img height={100} src='Java.png' alt='java' title='Java'/>
             <img height={100} src='html.png' alt='html' title='HTML'/>
             <img height={100} src='css.png' alt='css'title='CSS'/>
@@ -27,6 +28,7 @@ function AboutCoding(props) {
             <img height={100} src='mongoDB.jpg' alt='mongodb' title='MongoDB'/>
             <img height={100} src='SQL.png' alt='mySQL' title='mySQL'/>
             <img height={100} src='firebase.png' alt='firebase' title='Firebase'/>
+          </div>
         </div>
         <div className='right'>
           <h3> I am a recent graduate from the Applied Computer Science program at Dalhousie University, throughout my years I've learned many languages and frameworks mainly purtaining to web development. I learned a lot from multiple group projects doing backend and frontend work I feel I am great to work with any Team! </h3>
