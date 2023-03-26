@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/chrisbwebsite/static/css/main.f1028bf1.css",
+    "main.js": "/chrisbwebsite/static/js/main.c50d937e.js",
+    "static/media/Peggy.jpg": "/chrisbwebsite/static/media/Peggy.3d8ad4b4e42e068b817d.jpg",
+    "index.html": "/chrisbwebsite/index.html",
+    "main.f1028bf1.css.map": "/chrisbwebsite/static/css/main.f1028bf1.css.map",
+    "main.c50d937e.js.map": "/chrisbwebsite/static/js/main.c50d937e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1028bf1.css",
+    "static/js/main.c50d937e.js"
+  ]
+}
