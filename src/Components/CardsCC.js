@@ -10,7 +10,7 @@ function CardsCC() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='KoH.png'
+              src='https://i.ibb.co/Ky18ZXQ/KoH.png'
               text='Kings of Hali 5, Melee Stream Runner'
               label='LiveStream Running'
               popupText='During big events, you need multiple people to help with broadcasting. During Kings of Hali 5, the biggest fighting game tournament of Atlantic Canada, I was a volunteer stream runner with jobs including finding people to go on the stream, updating the stream data on the players on screen, and moderating the chat.'
@@ -19,7 +19,7 @@ function CardsCC() {
               popupFA='fab fa-twitch'
             />
             <CardItem
-              src='ChessBrah.jpg'
+              src='https://i.ibb.co/m85J6Rr/Chess-Brah.jpg'
               text='Chessbruh plays me and puts me on his youtube channel'
               label='Feature'
               popupText='I had the pleasure of playing a casual game of chess with Grandmaster Aman Hambleton, and he decided to feature that game on his YouTube channel, ChessBruh.'
@@ -31,7 +31,7 @@ function CardsCC() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='skeleton.jpg'
+              src='https://i.ibb.co/mXvRvyd/skeleton.jpg'
               text='Level22Skeleton Interview people downtown'
               label='Camera Work'
               popupText='I had the pleasure of being the cameraman for this interview. We got to experience a lot of the Halifax Downtown culture, captured the moment, and interviewed some very interesting people.'
@@ -40,7 +40,7 @@ function CardsCC() {
               popupFA="fab fa-youtube"
            />
             <CardItem
-              src='tmrw.jpg'
+              src='https://i.ibb.co/M7YVZx7/tmrw.jpg'
               text='TomorrowLan 2022 Casting'
               label='Livestream Casting'
               popupText='Casting is very important for tournaments of all varieties, and commentary is a very hard task. Throughout the years, I got to cast multiple Super Smash Brothers Melee tournaments, gaining skills in being entertaining and knowledgeable for viewers to enjoy live streams.'

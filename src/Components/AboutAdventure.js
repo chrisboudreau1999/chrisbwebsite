@@ -15,7 +15,7 @@ function AboutAdventure(props) {
     <>
             <div className='about-page'>
               <div className='left'>
-                <img height={500} src='ChrisAdventure.jpg' alt='aboutChris'/>
+                <img height={500} src='https://i.ibb.co/V3MZwr7/Chris-Adventure.jpg' alt='aboutChris'/>
               </div>
               <div className='right'>
                 <h3> Whether I'm biking in the middle of the night or traversing through dense forests, I'm constantly pushing myself to new heights and discovering what I'm truly capable of. I always love capturing the most magical moments of my life and taking photos of this beautiful province </h3>

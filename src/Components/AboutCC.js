@@ -17,7 +17,7 @@ function AboutCC(props) {
     <>
       <div className='about-page'>
         <div className='left'>
-          <img height={500} src='ChrisCamera.jpg' alt='aboutChris'/>
+          <img height={500} src='https://i.ibb.co/dMSxH1T/Chris-Camera.jpg' alt='aboutChris'/>
         </div>
         <div className='right'>
           <h3> I love entertaining people and making videos. Whether I'm in front of or behind the camera, I'm great at producing videos and always ready to do something entertaining. I'm really good at making videos that people like to watch and that show off my own unique style. I enjoy working with others and using my skills to help bring their ideas to life. Making videos is something I'm really passionate about and I put a lot of energy and enthusiasm into it. </h3>

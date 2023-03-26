@@ -11,7 +11,7 @@ function AdventureCards() {
             <div className='cards__wrapper'>
               <ul className='cards__items'>
                 <CardItem
-                  src='Kenomee.png'
+                  src='https://i.ibb.co/tx7qR7T/Kenomee.png'
                   text='Kenomee Canyon'
                   label='Backpacking'
                   popupText='The Kenomee Canyon Trail is a backpacking trail in Economy, Nova Scotia, with about 30+ kilometers round trip. Myself and two other friends did this trip in August 2022, where we made a video showing our experience.'
@@ -20,7 +20,7 @@ function AdventureCards() {
                   popupFA="fab fa-youtube"
                 />
                 <CardItem
-                  src='Split.jpg'
+                  src='https://i.ibb.co/YWZKFvx/Split.jpg'
                   text='Cape Split Sunset'
                   label='Sunset Hike'
                   popupText="Cape Split is a heavily trafficked hiking spot in the Annapolis Valley of Nova Scotia. Because it is an out-and-back trail, the majority of people don't get to see the beauty of the split during sunset. However, myself and some friends ended up with a perfect sunset back in October 2022, allowing us to capture some amazing photos."
@@ -32,7 +32,7 @@ function AdventureCards() {
               </ul>
               <ul className='cards__items'>
               <CardItem
-                  src='Peggy.jpg'
+                  src='https://i.ibb.co/31YGQTF/peggy.jpg'
                   text='Peggys Cove Sunrise'
                   label='Biking'
                   popupText='Peggys Cove is one of the most famous locations in Nova Scotia, where biking there is a total of 100 km round trip making it not the easiest of trips, in August 2021 myself and one of my friends did this route for sunrise starting at 2:30 in the morning to make it to Peggys Cove for 6 am!'   
@@ -41,7 +41,7 @@ function AdventureCards() {
                   popupFA='fab fa-strava'
                   />
                 <CardItem
-                  src='Duncan.jpg'
+                  src='https://i.ibb.co/jfPX58Q/Duncan.jpg'
                   text='Duncans Cove Sunrise'
                   label='Sunrise Hike' 
                   popupText="Every spring, I love to celebrate the weather by visiting Duncan's Cove for sunrise. It's a short hike, but it shows off the beauty of Nova Scotia's coasts so perfectly that I can't resist doing this hike every year."                  
@@ -50,7 +50,7 @@ function AdventureCards() {
                   popupFA='fas fa-hiking'
                 />
                 < CardItem
-                  src='Chignecto.jpg'
+                  src='https://i.ibb.co/XkDq41m/Chignecto.jpg'
                   text='Cape Chignecto'
                   label='Backpacking' 
                   popupText='Cape Chignecto is considered to be one of the most challenging backpacking routes in Nova Scotia. With 52 km and 2000+ meters of elevation, this trip is quite difficult. However, myself and three of my friends managed to complete this challenge in less than 72 hours while capturing all of the struggles and highlights.'  
