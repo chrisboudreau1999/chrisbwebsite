@@ -13,7 +13,7 @@ function CardsCoding() {
             src='BillyBluenose.jpg'
             text='Billy Bluenose Battle of the Atlantic'
             label='2nd Place Game Jam'
-            popupText='Myself and a team of 5 others created this game for the atlantic  gamejam coded with Box2D which is a web based game engine with threejs to create the partical engine. our game ended up placing 2nd out of 12 teams!'
+            popupText='Myself and a team of five others created a game for the Atlantic GameJam. We coded it with Box2D, a web-based game engine, and used Three.js to create the particle engine. Our game ended up placing 2nd out of 12 teams!'
             popupLink='https://chadams.itch.io/billy-bluenose-battle-of-the-atlantic'
             popupButton='Play the Game'
             popupFA='fa-solid fa-gamepad'
@@ -24,7 +24,7 @@ function CardsCoding() {
             src='website.jpg'
             text='My Personal Website'
             label='this website'
-            popupText='I created this website myself with React to show off my webdevopment skills and passions'
+            popupText='I created this website myself using React to show off my web development skills and passions.'
             popupLink="https://github.com/chrisboudreau1999/chrisbwebsite"
             popupButton="Check out the Source Code"
             popupFA="fab fa-github"
@@ -33,7 +33,7 @@ function CardsCoding() {
             src='BoneBot.png'
             text='Discord Bot with JDA'
             label='Discord Bot'
-            popupText='I made myself a discord bot that gives out a random image of my friend out of a list of possible photos, this was created with the JDA (Java Discord Api) and Maven'
+            popupText='I created a Discord bot myself using the JDA (Java Discord API) and Maven. The bot gives out a random image of my friend out of a list of possible photos.'
             popupLink="https://github.com/chrisboudreau1999/bonebot"
             popupButton="Check out the Source Code"
             popupFA="fab fa-github"
