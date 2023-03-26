@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/chrisbwebsite/static/css/main.c1f5111d.css",
-    "main.js": "/chrisbwebsite/static/js/main.a8e32f6d.js",
+    "main.js": "/chrisbwebsite/static/js/main.3f3f361c.js",
     "index.html": "/chrisbwebsite/index.html",
     "main.c1f5111d.css.map": "/chrisbwebsite/static/css/main.c1f5111d.css.map",
-    "main.a8e32f6d.js.map": "/chrisbwebsite/static/js/main.a8e32f6d.js.map"
+    "main.3f3f361c.js.map": "/chrisbwebsite/static/js/main.3f3f361c.js.map"
   },
   "entrypoints": [
     "static/css/main.c1f5111d.css",
-    "static/js/main.a8e32f6d.js"
+    "static/js/main.3f3f361c.js"
   ]
 }
