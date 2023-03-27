@@ -23,10 +23,10 @@ function AboutCoding(props) {
             <img height={100} src='https://i.ibb.co/5Bjr2R3/Css.png' alt='css'title='CSS'/>
             <img height={100} width={100} src='https://i.ibb.co/Pr8HsxP/Csharp.png' alt='csharp' title='CSharp'/>
             <img height={100} src='https://i.ibb.co/vJxk0X3/Javascript.png' alt='javascript' title='Javascript'/>
-            <img height={100} src='https://i.ibb.co/LN2LF7L/Node.png' alt='Node' title='Node'/>
+            <img height={100} src='https://i.ibb.co/FXfvxtx/nnode.jpg' alt='Node' title='Node'/>
             <img height={100} src='https://i.ibb.co/0fskBWS/React.png' alt='React' title='React'/>
             <img height={100} src='https://i.ibb.co/vDPVqDK/mongoDB.jpg' alt='mongodb' title='MongoDB'/>
-            <img height={100} src='https://i.ibb.co/qntnQ4F/SQL.jpg' alt='mySQL' title='mySQL'/>
+            <img height={100} src='https://i.ibb.co/8gQVTjs/sql.png' alt='mySQL' title='mySQL'/>
             <img height={100} src='https://i.ibb.co/0tkZ5tL/firebase.png' alt='firebase' title='Firebase'/>
           </div>
         </div>
