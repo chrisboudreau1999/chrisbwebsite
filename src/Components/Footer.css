@@ -7,11 +7,16 @@
     align-items: center;
     font-size: 200%;
     color: white;
+    
   }
   .footer-container a  { 
     margin: 2px;
     color:white ;
   }
 
+  .footer-container a:hover {
+    color: black; /* Change text color to red on hover */
+    /* Add any other style changes you want on hover */
+}
 
  
