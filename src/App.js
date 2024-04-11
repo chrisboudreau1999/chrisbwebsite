@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
-import Navbar from "./Components/Nav";
+import Navbar from "./Components/nav/Nav";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Components/pages/Home';
 import ContentCreation from './Components/pages/ContentCreation';
 import Coding from './Components/pages/Coding';
 import Adventure from './Components/pages/Adventure';
 import AboutMe from './Components/pages/AboutMe';
-import './Components/Footer.css';
+import './Components/footer/Footer';
 
 function App() {
   useEffect(() => {

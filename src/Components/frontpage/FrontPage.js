@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 import Button from 'react-bootstrap/Button';
 import './FrontPage.css';
 import 'bootstrap/dist/css/bootstrap.min.css';

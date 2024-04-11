@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import './AboutPage.css';
 import Button from 'react-bootstrap/Button';
-import CardsCC from './CardsCC';
+import CardsCC from '../cards/CardsCC';
 
 function AboutCC(props) {
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import './AboutPage.css';
 import Button from 'react-bootstrap/Button';
-import CardsCoding from './CardsCoding';
+import CardsCoding from '../cards/CardsCoding';
 
 function AboutCoding(props) {
   const [currentIndex, setCurrentIndex] = useState(0);

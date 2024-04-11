@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../App.css'
-import AboutCoding from '../AboutCoding';
-import Footer from '../Footer';
+import AboutCoding from '../about/AboutCoding';
+import Footer from '../footer/Footer';
 function Coding(){
     return(
         <>

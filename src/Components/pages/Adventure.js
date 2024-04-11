@@ -1,7 +1,6 @@
 import React from 'react'
-import '../../App.css'
-import AboutAdventure from '../AboutAdventure';
-import Footer from '../Footer';
+import AboutAdventure from '../about/AboutAdventure';
+import Footer from '../footer/Footer';
 function Adventure(){
     return(
         <>

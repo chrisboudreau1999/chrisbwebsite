@@ -1,8 +1,8 @@
 import React from 'react'
 import '../../App.css'
 
-import AboutMeintro from '../AboutPage';
-import Footer from '../Footer';
+import AboutMeintro from '../about/AboutPage';
+import Footer from '../footer/Footer';
 function AboutMe(){
     return(
         <>

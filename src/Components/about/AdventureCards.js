@@ -1,6 +1,6 @@
 import React from 'react';
-import './Cards.css';
-import CardItem from './CardItem.js';
+
+import CardItem from '../cards/CardItem';
 
 function AdventureCards() {
   return (
