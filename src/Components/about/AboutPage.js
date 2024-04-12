@@ -18,7 +18,7 @@ function AboutPage(props) {
                Check out my Github   <i className='fab fa-github '/>     
              </Button>    {'  '}           
              <Button as={Link} to="/coding" variant="primary">
-               Check out my Coding Experiance  <i className='fa fa-code '/>     
+               Check out my Coding Experience  <i className='fa fa-code '/>     
              </Button> 
                </div>
             </div>
