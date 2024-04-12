@@ -1,5 +1,6 @@
   .main-container {
-    background: url('https://i.ibb.co/31YGQTF/peggy.jpg') center center/cover no-repeat; 
+    background: url('../../Assets/Peggy.jpg') center/cover no-repeat;
+
     height: 100vh;
     width: 100%;
     display: flex;
