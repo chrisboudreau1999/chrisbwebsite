@@ -18,6 +18,15 @@ function CardsCoding() {
             popupButton='Play the Game'
             popupFA='fa-solid fa-gamepad'
           />
+          <CardItem
+            src={require('../../Assets/dalchess.jpg')}
+            text='Dal Chess'
+            label='Information website'
+            popupText='Created the baseline codebase for the dalchess club while using Astro.js'
+            popupLink='https://dalchess.github.io/website/'
+            popupButton='Check it Out'
+            popupFA='fab fa-github'
+          />
         </ul>
         <ul className='cards__items'>
           <CardItem
